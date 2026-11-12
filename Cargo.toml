@@ -1,0 +1,9 @@
+[package]
+name = "gtree"
+version = "0.1.0"
+edition = "2021"
+description = "Terminal git graph focused on branches, worktrees and upstream state"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+owo-colors = "4"
